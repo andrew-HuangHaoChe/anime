@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/entires.css">
+</head>
+<body>
+    <div class="demo-wrapper">
+        <div id="container">
+            <!-- <div class="pratice">
+                <div class="show"></div>
+                <input type="text" id="demo-input" value="0">
+            </div> -->
+            <div class="income-group">
+                <div class="income-group__item satellite">
+                    <!-- <img src="./img/satellite.svg" alt=""> -->
+                    <svg id="satelite" width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M101.535 65.6161L88.113 52.1941C86.1604 50.2415 82.9946 50.2415 81.042 52.1941L52.7577 80.4784C50.8051 82.431 50.8051 85.5968 52.7577 87.5495L113.517 148.309C115.47 150.261 118.635 150.261 120.588 148.309L148.872 120.024C150.825 118.072 150.825 114.906 148.872 112.953L118.493 82.5737L110.014 74.0949" stroke="#50BEAF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M169 124.037C160.304 123.603 149.946 126.902 138.706 138.142C113.44 163.409 128.298 184.216 135.49 191.716C137.236 193.536 140.044 193.373 141.827 191.59L166.99 166.427L192.153 141.263C193.936 139.48 194.09 136.662 192.269 134.917C189.503 132.266 184.933 128.578 179 126.24" stroke="#50BEAF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M144.111 145.705C144.697 145.119 144.697 144.169 144.111 143.583C143.525 142.998 142.575 142.998 141.989 143.583L144.111 145.705ZM182.093 143.028C182.679 142.443 182.679 141.493 182.093 140.907C181.507 140.321 180.558 140.321 179.972 140.907L182.093 143.028ZM141.989 143.583C135.501 150.072 132.384 156.262 131.322 161.843C130.26 167.421 131.276 172.257 132.83 176L135.601 174.849C134.222 171.529 133.339 167.292 134.269 162.404C135.199 157.518 137.966 151.849 144.111 145.705L141.989 143.583ZM179.972 140.907L145.31 175.57L147.431 177.691L182.093 143.028L179.972 140.907ZM132.83 176C134.103 179.064 136.711 180.642 139.536 180.832C142.305 181.019 145.239 179.883 147.431 177.691L145.31 175.57C143.676 177.203 141.57 177.962 139.737 177.839C137.959 177.719 136.403 176.78 135.601 174.849L132.83 176Z" fill="#50BEAF"/>
+                        <path d="M179.597 179.033C173.102 185.528 167.59 184.494 164.729 183.17C163.501 182.602 163.428 181.06 164.384 180.103L172.526 171.962L180.667 163.821C181.623 162.864 183.166 162.938 183.734 164.165C185.058 167.026 186.091 172.539 179.597 179.033Z" stroke="#F0E14B" stroke-width="3" stroke-linejoin="round"/>
+                        <path d="M91.9556 141.182L101.855 151.082C102.246 151.472 102.246 152.105 101.855 152.496L49.8827 204.468C49.4922 204.859 48.859 204.859 48.4685 204.468L21.5984 177.598C21.2079 177.208 21.2079 176.575 21.5984 176.184L73.5708 124.212C73.9613 123.821 74.5945 123.821 74.985 124.212L87.7129 136.94C88.1034 137.33 88.7366 137.33 89.1271 136.94L91.602 134.465" stroke="#50BEAF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M38.9224 187.144L53.4181 172.648" stroke="#F0E14B" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M57.6606 168.406L71.0957 154.971L77.8132 148.253" stroke="#F0E14B" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M39.5688 167.285L56.5394 184.255" stroke="#F0E14B" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M53.7114 153.142L70.682 170.113" stroke="#F0E14B" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M52.2015 42.7989L56.621 38.3794L63.1617 31.8387C64.4309 30.5695 66.4669 30.5989 67.4441 32.1045C70.5915 36.9537 75.1114 48.1733 61.9243 61.3604C48.7372 74.5475 37.5176 70.0276 32.6683 66.8803C31.1627 65.9031 31.1333 63.8671 32.4025 62.5979L38.9433 56.0571L43.3627 51.6377" stroke="#50BEAF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M134.675 84.3207L124.775 74.4212C124.385 74.0307 124.385 73.3976 124.775 73.007L176.748 21.0347C177.138 20.6442 177.771 20.6442 178.162 21.0347L205.032 47.9047C205.422 48.2953 205.422 48.9284 205.032 49.319L153.06 101.291C152.669 101.682 152.036 101.682 151.645 101.291L138.917 88.5634C138.527 88.1729 137.894 88.1729 137.503 88.5634L135.028 91.0383" stroke="#50BEAF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M187.708 38.3588L173.212 52.8545" stroke="#F0E14B" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M168.97 57.0973L155.535 70.5323L148.817 77.2498" stroke="#F0E14B" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M187.062 58.2184L170.091 41.2478" stroke="#F0E14B" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M172.919 72.3607L155.948 55.3902" stroke="#F0E14B" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M118.067 139.569L64.3265 85.8284C62.7644 84.2663 62.7644 81.7337 64.3265 80.1716L73.2016 71.2964L79.0534 65.4446" stroke="#50BEAF" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M215 162C215 162 207.442 179.058 193.5 193C179.558 206.942 162 215 162 215" stroke="#F0E14B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M199 166C199 166 196.077 175.423 186 185.5C175.923 195.577 166 199 166 199" stroke="#F0E14B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="income-group__item dandelion">
+                    <img src="./img/dandelion.svg" alt="">
+                </div>
+                <div class="income-group__item rocket">
+                    <img src="./img/rocket.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="node_modules/animejs/lib/anime.min.js"></script>
+    <script src="js/all.js"></script>
+</body>
+</html>

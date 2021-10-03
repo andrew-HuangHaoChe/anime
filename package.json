@@ -1,0 +1,10 @@
+{
+  "name": "animatejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "andrew",
+  "license": "MIT",
+  "dependencies": {
+    "animejs": "^3.2.1"
+  }
+}
